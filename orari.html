@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gjimnazi Sabah Sinani</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="orari.css">
+  <link rel="icon" type="image/png" href="foto/logo.png">
+  <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+  <!--fillim loader-->
+    <div class="preloader"></div>
+  <!--fund loader-->
+
+  <!--fillim navbar-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img class="flogo" src="foto/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="njoftime.html">Njoftime</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aktivite.html">Aktivitete</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Rreth nesh
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item active1" href="orari.html">Orari</a></li>
+              <li><a class="dropdown-item" href="stafi.html">Stafi</a></li>
+              <li><a class="dropdown-item" href="kontakte.html">Kontakte</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="boshllek"></div>
+  <!--fundi navbar-->
+
+  <!--fillim orar-->
+
+  <div class="cnt1">
+
+    <h1 class="titull">Orari mesimor 2024-2025</h1>
+
+    <label class="lab" for="year">Viti :</label>
+<select id="year">
+    <option value="" disabled selected style="display:none;">-----</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+</select>
+
+<label class="lab" for="class">Klasa :</label>
+<select id="class">
+    <option value="" disabled selected style="display:none;">-----</option>
+    <option value="A">A</option>
+    <option value="B">B</option>
+</select>
+
+<button class="sub" onclick="submitForm()">Konfirmo</button>
+
+<table id="timetable">
+    <thead>
+        <tr>
+            <th></th>
+            <th>E&nbsp;hënë</th>
+            <th>E&nbsp;martë</th>
+            <th>E&nbsp;mërkurë</th>
+            <th>E&nbsp;enjte</th>
+            <th>E&nbsp;premte</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>8:00 - 9:00</td>
+            <td id="time1"></td>
+            <td id="time2"></td>
+            <td id="time3"></td>
+            <td id="time4"></td>
+            <td id="time5"></td>
+        </tr>
+        <tr>
+            <td>9:00 - 10:00</td>
+            <td id="time6"></td>
+            <td id="time7"></td>
+            <td id="time8"></td>
+            <td id="time9"></td>
+            <td id="time10"></td>
+        </tr>
+        <tr>
+            <td>10:00 - 11:00</td>
+            <td id="time11"></td>
+            <td id="time12"></td>
+            <td id="time13"></td>
+            <td id="time14"></td>
+            <td id="time15"></td>
+        </tr>
+        <tr>
+            <td>11:00 - 12:00</td>
+            <td id="time16"></td>
+            <td id="time17"></td>
+            <td id="time18"></td>
+            <td id="time19"></td>
+            <td id="time20"></td>
+        </tr>
+        <tr>
+            <td>12:00 - 13:00</td>
+            <td id="time21"></td>
+            <td id="time22"></td>
+            <td id="time23"></td>
+            <td id="time24"></td>
+            <td id="time25"></td>
+        </tr>
+        <tr>
+            <td>13:00 - 14:00</td>
+            <td id="time26"></td>
+            <td id="time27"></td>
+            <td id="time28"></td>
+            <td id="time29"></td>
+            <td id="time30"></td>
+        </tr>
+        <tr>
+            <td>14:00 - 15:00</td>
+            <td id="time31"></td>
+            <td id="time32"></td>
+            <td id="time33"></td>
+            <td id="time34"></td>
+            <td id="time35"></td>
+        </tr>
+    </tbody>
+</table>
+
+
+  </div>
+
+  <!--fund orar-->
+
+  <!--fillim footer-->
+  <footer class="futer">
+
+    <div class="futerp1">
+      <img class="futerlogo" src="foto/logo.png">
+    </div>
+
+    <div class="futerp2">
+      <h1 class="hdr1">KONTAKTET</h1>
+      <p class="prg1">Adresa, nr. telefoni, email</p>
+    </div>
+
+    <div class="futerp3">
+      <h4 class="hdr2">Adresa</h3>
+      <p class="prg1"> Pukë</p>
+      <h4 class="hdr2">Telefon</h3>
+      <a href="tel:+1234567890" class="anc">+355 066 234 2345</a>
+      <h4 class="hdr2">Email</h3>
+      <a href="mailto:recipient@example.com" class="anc">info@gjimnaziperikliikonomi.com</a>
+      <h4 class="hdr2">Web</h3>
+      <a href="https://arsimi.gov.al" target="_blank" class="anc">Ministria e Arsimit, Sportit dhe Rinisë</a>
+      <br>
+      <a href="https://lezhe.arsimiparauniversitar.gov.al" target="_blank" class="anc">Drejtoria e Arsimit Parauniversitar, Lezhë</a>
+      <br>
+      <a href="https://www.facebook.com/ZAPUKE" target="_blank" class="anc">Zyra Vendore Arsimore Pukë</a>
+      <br>
+      <br>
+      <a href="https://www.facebook.com/p/Gjimnazi-Sabah-Sinani-Puk%C3%AB-100068531287839/" target="_blank" class="anc">Faqja e shkollës në Facebook</a>
+      <br>
+      <a href="index.html" class="anc">. . .</a>
+    </div>
+  </footer>
+ <!--fund footer-->
+ 
+  <script src="loader.js"></script>
+  <script src="navbar.js"></script>
+  <script src="orari.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
+</body>
+</html>

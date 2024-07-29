@@ -1,0 +1,129 @@
+.cnt2{
+    background-color: #acecfa;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    padding: 2%; 
+}
+.pgMove{
+    background-color: #acecfa;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+.karuselcnt{
+    border: 5px solid #1A4DA6;
+    overflow: hidden;
+}
+.post{
+    border: 5px solid #1A4DA6;
+    padding: 3%;
+    border-radius: 10px;
+}
+.fprofil{
+    width: 100%;
+    height: auto;
+}
+.divfprofil{
+    width: 100px;
+    height: auto;
+}
+.tekst{
+    height: 20vh; /* Fixed height */
+    overflow-y: auto;
+    padding: 1.2vw;
+}
+.hdr3{
+    display: inline;
+    margin-left: 3%;
+    font-size: 1.5vw;
+    font-weight: 700;
+    font-family: Arial;
+}
+.postHdr{
+    display: flex;
+    align-items: center;
+}
+.lastUpdate{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#prev, #next{
+    border: 2px solid #a52525;
+    font-size: 40px;
+    border-radius: 100px;
+    color: #1A4DA6;
+    background-color: #ff7c7c;
+    font-weight: bolder;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+#prev:hover, #next:hover{
+    background-color: #a52525;
+    color: #acecfa;
+}
+.pinfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1A4DA6;
+}
+.vid{
+    width: 100%;
+    height: auto;
+}
+.vidCnt{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 1200px) {
+    .cnt2{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .hdr3{
+        font-size: 2vw;
+    }
+    .lastUpdate{
+        font-size: 1.4vw;
+    }
+}
+@media (max-width: 1000px) {
+    .hdr3{
+        font-size: 2.8vw;
+    }
+    .lastUpdate{
+        font-size: 1.8vw;
+    }
+}
+@media (max-width: 600px) {
+    .cnt2{
+        grid-template-columns: repeat(1, 1fr); 
+        padding: 5%;
+    }
+    .hdr3{
+        font-size: 4vw;
+    }
+    .lastUpdate{
+        font-size: 2.4vw;
+    }
+    .pgMove{
+        padding-bottom: 40px;
+        padding-top: 25px;
+    }
+}
+@media (max-width: 500px) {
+    .hdr3{
+        font-size: 5vw;
+    }
+    .lastUpdate{
+        font-size: 2.9vw;
+    }
+}

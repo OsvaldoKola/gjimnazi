@@ -1,0 +1,149 @@
+.cnt1{
+    background-color: #acecfa;
+    text-align: center;
+    padding: 1%;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.titull{
+    font-family: Arial;
+    font-weight: bolder;
+    color: #1A4DA6;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 6vh;
+}
+.pinfo{
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 988px) {
+    .titull{
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .titull{
+        font-size: 5vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .titull{
+        font-size: 6vw;
+    }
+}
+
+/* fillim orari*/
+
+
+.subject-div {
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+}
+
+/* fund orari*/
+
+option{
+    text-align: center;
+}
+
+.sub{
+    border-radius: 20px;
+    padding: 1px 8px 1px 8px;
+    background-color: #1A4DA6;
+    color: #acecfa;
+    font-family: Arial;
+    font-weight: 600;
+    border: solid #1A4DA6;
+}
+
+.sub:hover{
+    background-color: #0e3983;
+}
+.sub:active{
+    background-color: #177309;
+}
+.lab{
+    font-family: Arial;
+    font-weight: 600;
+}
+#class, #year{
+    background-color: #acecfa;
+    font-family: Arial;
+    font-weight: 600;
+    margin-right: 3%;
+}
+
+
+/*responsive*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    overflow-x: auto; 
+    table-layout: fixed;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    min-width: 80px; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    font-size: 14px;
+}
+
+th:first-child, td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2; 
+    background-color: #acecfa; 
+    min-width: 120px; 
+    max-width: 140px; 
+    white-space: normal; 
+    overflow: visible; 
+    text-overflow: clip;
+    word-break: break-word;
+    font-size: 14px; 
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background-color: #acecfa; 
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    font-size: 14px; 
+}
+
+
+@media screen and (max-width: 600px) {
+    th, td {
+        font-size: 12px; 
+       
+    }
+    
+    th:first-child, td:first-child {
+        white-space: normal; 
+        
+    }
+    
+    th {
+        white-space: nowrap;
+        overflow: visible; 
+        text-overflow: clip; 
+       
+    }
+}
+td{
+    padding: 0;
+    padding-right: 10px;
+}
+

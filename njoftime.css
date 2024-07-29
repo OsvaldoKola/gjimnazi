@@ -1,0 +1,180 @@
+.wallTextDiv{
+    width: 100%;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 15vw;
+    font-weight: 200;
+    background-color: #a52525;
+    color: #e2faff;
+}
+@media (max-width: 1200px) {
+    .wallTextDiv{
+        height: 55vw;
+        font-size: 20vw; 
+    }
+  }
+  
+  .grid2{
+    background-color: #acecfa;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0px 30px 30px 30px;
+  }
+
+  .anc1{
+    display: block;
+    width: 100%;
+    height: 20vw;
+    padding: 30px 20px 20px 20px;
+    text-decoration: none;
+    overflow: auto;
+  }
+  .color1 {
+    background-color: #59C1D9;
+  }
+  .color2 {
+    background-color: #F25C5C;
+  }
+  .red1{
+    color: #a52525;
+  }
+  .blue1{
+    color: #1A4DA6;
+  }
+  .blue2{
+    color: #0b5e70;
+  }
+  .icon1 {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 20px;
+  }
+ .hdrgrid{
+ font-size: 1.4vw;
+ font-weight: bolder;
+ margin-bottom: 20px;
+}
+@media (max-width: 1500px) {
+  .anc1{
+    height: 25vw;
+  }
+}
+@media (max-width: 1300px) {
+  .anc1{
+    height: 30vw;
+  }
+}
+@media (max-width: 1200px) {
+  .anc1{
+    height: 35vw;
+  }
+  .icon1 {
+    width: 25%;
+    height: 25%;
+  }
+  .hdrgrid{
+    font-size: 2vw;
+   }
+}
+@media (max-width: 1000px) {
+  .anc1{
+    height: 40vw;
+  }
+}
+@media (max-width: 900px) {
+  .anc1{
+    height: 45vw;
+  }
+}
+@media (max-width: 800px) {
+  .anc1{
+    height: 55vw;
+  }
+  .hdrgrid{
+    font-size: 2.5vw;
+   }
+}
+@media (max-width: 750px) {
+  .anc1{
+    height: 60vw;
+  }
+}
+@media (max-width: 700px) {
+  .anc1{
+    height: 65vw;
+  }
+}
+@media (max-width: 650px) {
+  .anc1{
+    height: 80vw;
+  }
+}
+@media (max-width: 600px) {
+  .anc1{
+    height: 65vw;
+  }
+  .hdrgrid{
+    font-size: 3.5vw;
+   }
+  .grid2{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .color3{
+    background-color: #F25C5C;
+  }
+  .blue3{
+    color: #1A4DA6;
+  }
+  .blue4{
+    color: #0b5e70;
+  }
+  .color4{
+    background-color: #59C1D9;
+  }
+  .red2{
+    color: #a52525;
+  }
+}
+@media (max-width: 500px) {
+  .anc1{
+    height: 85vw;
+  }
+  .hdrgrid{
+    font-size: 4.9vw;
+   }
+}
+@media (max-width: 470px) {
+  .anc1{
+    height: 90vw;
+  }
+}
+@media (max-width: 430px) {
+  .anc1{
+    height: 100vw;
+  }
+}
+@media (max-width: 415px) {
+  .anc1{
+    height: 105vw;
+  }
+}
+@media (max-width: 394px) {
+  .anc1{
+    height: 115vw;
+  }
+}
+@media (max-width: 377px) {
+  .anc1{
+    height: 120vw;
+  }
+}
+@media (max-width: 361px) {
+  .anc1{
+    height: 130vw;
+  }
+}
+
+

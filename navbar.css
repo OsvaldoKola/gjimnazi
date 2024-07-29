@@ -1,0 +1,150 @@
+
+/*fillim navbar*/
+.navbar {
+    padding: 0 ;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.flogo{
+    width: 9rem;
+    height: auto;
+    padding: 1%;
+}
+
+.navbar-brand{
+    width: 60vw;
+}
+
+.container-fluid{
+    margin: 0;
+    background-color: #59C1D9;
+}
+
+.nav-link{
+    font-weight: bolder;
+    font-size: 3vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    text-align: center;
+}
+
+.nav-link, .dropdown-toggle, .dropdown-item{
+    color: #1A4DA6;
+}
+
+.nav-link:hover, .dropdown-toggle:hover, .dropdown-item:hover{
+    color: #940AA6
+}
+
+.active1{
+    color: #F25C5C;
+}
+
+.navbar-toggler{
+    font-size: 2.5rem;
+    border: none;
+}
+
+.dropdown-menu{
+    background-color: #2e9cb5;
+    border: none;
+}
+
+.dropdown-item{
+    font-weight: bolder;
+    font-size: 2.5vh;
+    text-align: center;
+    padding: 15px;
+}
+
+.dropdown-menu.show{
+    min-width: 100%;
+    width: 30vh;
+
+}
+
+.dropdown{
+    align-items: center;
+}
+
+#boshllek{
+    height: 111.3px;
+}
+/*fund navbar*/
+
+
+
+
+/*fillim loader*/
+
+.preloader {
+    background: #59C1D9 url("foto/loader.gif") no-repeat center center; 
+    height: 100vh; 
+    width: 100%; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    background-size: 20%; 
+}
+@media (max-width: 800px) {
+    .preloader { background-size: 50%; }
+}
+/*fund loader*/
+
+/*fillim footer*/
+
+.futer{
+    background-color: #ff7c7c;
+    padding: 5% 1% 5% 1%;
+    display: flex;
+}
+.futerlogo{
+    width: 100%;
+}
+.futerp1{
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.futerp2{
+    width: 33.33%;
+    text-align: center;
+}
+.futerp3{
+    width: 33.33%;
+}
+.hdr1{
+    color: #1A4DA6;
+    font-weight: 700;
+}
+.hdr2{
+    color: #1A4DA6;
+    font-weight: 700;
+}
+.prg1, .anc{
+    text-decoration: none;
+    color:#acecfa;
+}
+@media (max-width: 1000px) {
+    .futer{
+        flex-direction: column;
+    }
+    .futerp1, .futerp2, .futerp3{
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .futerp2{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .futerp3{
+        text-align: center;
+    }
+}
+/*fund footer*/
